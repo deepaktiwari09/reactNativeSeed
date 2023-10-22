@@ -1,4 +1,4 @@
-current directory: /Users/shubhamsoni/Development/WebsenorBase/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
+current directory: /Users/shubhamsoni/Development/reactnativeseed/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20230715-16881-1jk8qqq.rb extconf.rb
 checking for ffi_prep_closure_loc() in -lffi... yes
 checking for ffi_prep_cif_var()... yes
@@ -8,10 +8,10 @@ checking for whether -pthread is accepted as LDFLAGS... yes
 creating extconf.h
 creating Makefile
 
-current directory: /Users/shubhamsoni/Development/WebsenorBase/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
+current directory: /Users/shubhamsoni/Development/reactnativeseed/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
 make "DESTDIR=" clean
 
-current directory: /Users/shubhamsoni/Development/WebsenorBase/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
+current directory: /Users/shubhamsoni/Development/reactnativeseed/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
 make "DESTDIR="
 compiling AbstractMemory.c
 AbstractMemory.c:1100:17: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
@@ -4087,6 +4087,6 @@ linking shared-object ffi_c.bundle
 ld: warning: directory not found for option '-L/AppleInternal/Library/BuildRoots/c2cb9645-dafc-11ed-aa26-6ec1e3b3f7b3/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.4.Internal.sdk/usr/local/lib'
 ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
-current directory: /Users/shubhamsoni/Development/WebsenorBase/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
+current directory: /Users/shubhamsoni/Development/reactnativeseed/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
 make "DESTDIR=" install
 /usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20230715-16881-1dwm5or

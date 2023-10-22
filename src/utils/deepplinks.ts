@@ -2,7 +2,7 @@ import { Linking } from 'react-native';
 
 export const linking = {
   prefixes: [
-    'websenorbase://',
+    'reactnativeseed://',
     //   "https://dev-api.websenor.com",
     //   "https://stage-api.websenor.com",
     //   "https://websenor.com",

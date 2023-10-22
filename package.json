@@ -1,5 +1,5 @@
 {
-  "name": "websenorsase",
+  "name": "reactnativeseed",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -14,8 +14,8 @@
     "build:release:android": "cd android && ./gradlew assembleRelease",
     "clean:cache:android": "cd android && ./gradlew cleanBuildCache && cd ..",
     "build:ios": "react-native bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios'",
-    "deeplink:open:android": "npx uri-scheme open 'websenorbase://' --android",
-    "deeplink:open:ios": "npx uri-scheme open 'websenorbase://' --ios"
+    "deeplink:open:android": "npx uri-scheme open 'reactnativeseed://' --android",
+    "deeplink:open:ios": "npx uri-scheme open 'reactnativeseed://' --ios"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.19.1",
