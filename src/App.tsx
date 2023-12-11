@@ -7,8 +7,9 @@ import {
 } from "react-native-paper";
 import { DarkTheme, LightTheme } from "./utils/themes";
 import { PersistGate } from "redux-persist/integration/react";
-import {Provider} from 'react-redux'
+import { Provider } from 'react-redux'
 import { persistor, store } from "./store";
+import AddButton from "@/components/buttons/AddButton"
 
 function App(): JSX.Element {
   let colorScheme = useColorScheme();
@@ -25,6 +26,7 @@ function App(): JSX.Element {
         <PersistGate persistor={persistor}>
           <Provider store={store}>
             <Application />
+            <AddButton />
           </Provider>
         </PersistGate>
       </SafeAreaView>
