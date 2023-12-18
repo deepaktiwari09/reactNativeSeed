@@ -5,7 +5,6 @@ import {
   useNavigationContainerRef,
 } from '@react-navigation/native';
 import { linking } from '../utils/deepplinks';
-import { useFlipper } from '@react-navigation/devtools';
 import { SplashContainer } from '../containers';
 import AuthNavigator from './AuthNavigator';
 import MainNavigator from './MainNavigator';
@@ -15,7 +14,7 @@ import NoInternetContainer from '../containers/NoInternetContainer';
 import PermissionContainer from '../containers/PermissionContainer';
 
 export default function Application() {
-  useFlipper(navigationRef);
+  
   return (
     <NavigationContainer ref={navigationRef} linking={linking}>
       <RootStack.Navigator

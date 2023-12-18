@@ -1,7 +1,7 @@
 node_modules/
 __tests__/
 
-
+.cxx
 # OSX
 #
 .DS_Store
